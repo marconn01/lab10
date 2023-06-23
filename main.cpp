@@ -34,7 +34,7 @@ void exparray()
 
 void addele(int num)
 {
-	if (sizeofarr = initcap)
+	if (sizeofarr == initcap)
 	{
 		exparray();
 		cout << "ARRAY EXPANDED";
@@ -114,7 +114,7 @@ int main()
 			cin >> num;
 			killdil(num);
 			break;
-		case 's':
+		case 'r':
 			cout << "S = ";
 			sizepls();
 			break;
